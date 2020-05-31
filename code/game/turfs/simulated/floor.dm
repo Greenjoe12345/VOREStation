@@ -33,9 +33,13 @@
 	var/lava = 0
 
 /turf/simulated/floor/is_plating()
+<<<<<<< HEAD
 	if(!flooring || flooring.is_plating)
 		return TRUE
 	return FALSE
+=======
+	return (!flooring || flooring.is_plating)
+>>>>>>> e53dc15... Merge pull request #7247 from VOREStation/Arokha/erisfloors
 
 /turf/simulated/floor/Initialize(mapload, floortype)
 	. = ..()

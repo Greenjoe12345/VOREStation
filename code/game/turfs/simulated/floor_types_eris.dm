@@ -913,17 +913,29 @@
 	movable_atom_whitelist = list(list(/obj/machinery/door/airlock, list(), 2))
 	*/
 
+<<<<<<< HEAD
+=======
+/obj/item/stack/tile/floor/rplating
+	name = "reinforced plating"
+	singular_name = "dark floor tile"
+	icon_state = "tile_dark"
+	matter = list(MAT_STEEL = 1)
+
+>>>>>>> e53dc15... Merge pull request #7247 from VOREStation/Arokha/erisfloors
 /turf/simulated/floor/plating/eris
 	name = "reinforced plating"
 	icon = 'icons/turf/flooring/eris/plating.dmi'
 	icon_state = "plating"
 	initial_flooring = /decl/flooring/reinforced/plating
 
+<<<<<<< HEAD
 /turf/simulated/floor/plating/eris/airless
 	oxygen = 0
 	nitrogen = 0
 	temperature = TCMB
 
+=======
+>>>>>>> e53dc15... Merge pull request #7247 from VOREStation/Arokha/erisfloors
 //==========UNDERPLATING==============\\
 /decl/flooring/reinforced/plating/under
 	name = "underplating"
@@ -931,6 +943,10 @@
 	descriptor = "support beams"
 	icon_base = "under"
 	flags = TURF_HAS_CORNERS | TURF_HAS_EDGES | TURF_CAN_BURN | TURF_CAN_BREAK
+<<<<<<< HEAD
+=======
+	can_paint = 1
+>>>>>>> e53dc15... Merge pull request #7247 from VOREStation/Arokha/erisfloors
 	has_base_range = 0
 	is_plating = TRUE
 
@@ -956,11 +972,16 @@
 /turf/simulated/floor/plating/eris/under
 	name = "underplating"
 	icon_state = "under"
+<<<<<<< HEAD
 	initial_flooring = /decl/flooring/reinforced/plating/under
 /turf/simulated/floor/plating/eris/under/airless
 	oxygen = 0
 	nitrogen = 0
 	temperature = TCMB
+=======
+	icon = 'icons/turf/flooring/eris/plating.dmi'
+	initial_flooring = /decl/flooring/reinforced/plating/under
+>>>>>>> e53dc15... Merge pull request #7247 from VOREStation/Arokha/erisfloors
 
 //============HULL PLATING=========\\
 /decl/flooring/reinforced/plating/hull
@@ -1003,12 +1024,15 @@
 	icon = 'icons/turf/flooring/eris/hull.dmi'
 	icon_state = "hullcenter0"
 	initial_flooring = /decl/flooring/reinforced/plating/hull
+<<<<<<< HEAD
 
 /turf/simulated/floor/hull/airless
 	oxygen = 0
 	nitrogen = 0
 	temperature = TCMB
 
+=======
+>>>>>>> e53dc15... Merge pull request #7247 from VOREStation/Arokha/erisfloors
 /*
 /turf/simulated/floor/hull/New()
 	if(icon_state != "hullcenter0")
