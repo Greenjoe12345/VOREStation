@@ -45,12 +45,14 @@
 	build_path = /obj/item/ammo_casing/a12g/pellet
 	contraband = TRUE
 
+/* Disabled for autolathes.  This requires research so it should be protolathe only.
 /datum/design/autolathe/arms/stunshell
 	name = "ammunition (stun cartridge, shotgun)"
 	id = "stunshell"
 	materials = list(DEFAULT_WALL_MATERIAL = 360, MAT_GLASS = 720)
 	build_path = /obj/item/ammo_casing/a12g/stunshell
 	contraband = TRUE
+*/
 
 //////////////////
 /*Ammo magazines*/

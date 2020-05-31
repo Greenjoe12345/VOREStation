@@ -36,14 +36,18 @@
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/metaglass
 	build_multiple = TRUE
 
-/datum/design/autolathe/general/drinkingglass_carafe
+/datum/design/autolathe/general/drinkingglass/carafe
 	name = "glass carafe"
 	id = "drinkingglass_carafe"
 	materials = list(MAT_GLASS = 50)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/carafe
+	research_icon = 'icons/obj/drinks_vr.dmi'
+	research_icon_state = "carafe"
 
-/datum/design/autolathe/general/drinkingglass_pitcher
+/datum/design/autolathe/general/drinkingglass/pitcher
 	name = "plastic pitcher"
 	id = "drinkingglass_pitcher"
 	materials = list()
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/pitcher
+	research_icon = 'icons/obj/drinks_vr.dmi'
+	research_icon_state = "pitcher"

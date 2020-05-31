@@ -14,53 +14,65 @@
 	materials = list(MAT_GLASS = 2000)
 	build_path = /obj/item/weapon/reagent_containers/glass/cooler_bottle
 
-/datum/design/autolathe/general/drinkingglass_square
+// These glasses don't have icon_state on the item definition so we must specify.
+/datum/design/autolathe/general/drinkingglass
+	research_icon = 'icons/pdrink.dmi'
+
+/datum/design/autolathe/general/drinkingglass/square
 	name = "half-pint glass"
 	id = "drinkingglass_square"
 	materials = list(MAT_GLASS = 60)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/square
+	research_icon_state = "square"
 
-/datum/design/autolathe/general/drinkingglass_rocks
+/datum/design/autolathe/general/drinkingglass/rocks
 	name = "rocks glass"
 	id = "drinkingglass_rocks"
 	materials = list(MAT_GLASS = 40)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/rocks
+	research_icon_state = "rocks"
 
-/datum/design/autolathe/general/drinkingglass_shake
+/datum/design/autolathe/general/drinkingglass/shake
 	name = "milkshake glass"
 	id = "drinkingglass_shake"
 	materials = list(MAT_GLASS = 30)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/shake
+	research_icon_state = "shake"
 
-/datum/design/autolathe/general/drinkingglass_cocktail
+/datum/design/autolathe/general/drinkingglass/cocktail
 	name = "cocktail glass"
 	id = "drinkingglass_cocktail"
 	materials = list(MAT_GLASS = 30)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/cocktail
+	research_icon_state = "cocktail"
 
-/datum/design/autolathe/general/drinkingglass_shot
+/datum/design/autolathe/general/drinkingglass/shot
 	name = "shot glass"
 	id = "drinkingglass_shot"
 	materials = list(MAT_GLASS = 10)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/shot
+	research_icon_state = "shot"
 
-/datum/design/autolathe/general/drinkingglass_pint
+/datum/design/autolathe/general/drinkingglass/pint
 	name = "pint glass"
 	id = "drinkingglass_pint"
 	materials = list(MAT_GLASS = 120)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/pint
+	research_icon_state = "pint"
 
-/datum/design/autolathe/general/drinkingglass_mug
+/datum/design/autolathe/general/drinkingglass/mug
 	name = "glass mug"
 	id = "drinkingglass_mug"
 	materials = list(MAT_GLASS = 80)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/mug
+	research_icon_state = "mug"
 
-/datum/design/autolathe/general/drinkingglass_wine
+/datum/design/autolathe/general/drinkingglass/wine
 	name = "wine glass"
 	id = "drinkingglass_wine"
 	materials = list(MAT_GLASS = 50)
 	build_path = /obj/item/weapon/reagent_containers/food/drinks/glass2/wine
+	research_icon_state = "wine"
 
 /datum/design/autolathe/general/flashlight
 	name = "flashlight"
